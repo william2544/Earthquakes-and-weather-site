@@ -1,0 +1,11 @@
+.inform-div{
+    display: flex;
+    justify-content: space-around;
+}
+.div_info{
+    /* text-align: center; */
+    background-color: rgb(205,210,211,0.1);
+    padding: 0 1rem;
+    border-radius: 5px;
+    width: 250px;
+}

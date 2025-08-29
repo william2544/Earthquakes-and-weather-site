@@ -1,0 +1,32 @@
+.sidenav{
+    width: 20%;
+    background-color: rgb(205,210,211,0.2);
+    /* opacity: 0.9; */
+    height: 100%;
+    position: fixed;
+    /* z-index: 1; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-align: center;
+    position: relative;
+}
+.sidenav a{
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidenav a:hover{
+    background-color: rgb(19,24,35);
+    color: rgb(108, 165, 240);
+}
+
+.about{
+    position: absolute;
+    /* margin-bottom: 10px; */
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+}
